@@ -1,0 +1,16 @@
+<div class="sidebar">
+      <header>Blogs</header>
+      {{#each listBlog}}
+      <ul>
+        <li><a href="/blog?name={{this.id}}"><i>{{this.title}}</i></a>
+    </li>
+      </ul>
+      {{/each}}
+</div> 
+
+
+
+
+<h1>{{blog.title}}</h1>
+<p>{{blog.body}}</p>
+

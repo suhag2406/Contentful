@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+<p>{{blog}}</p>
+
+      {{#each this}}
+      <ul>
+        <li><a href="/blog?name={{this.entryId}}"><i>{{entryId}}</i></a>
+    </li>
+      </ul>
+      {{/each}}
+
+

@@ -1,24 +1,80 @@
 body {
-  padding: 50px;
+  padding: 0px;
+  left: 270px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+ .body1{
+   margin-left: 270px;
+   margin-top: 150px;
+ }
 
+ .nav_left{
+   margin-left: 270px;
+ }
 a {
   color: #00B7FF;
 }
 
-.navbar-dark .nav-item .nav-link {
-  color: #fff;
+*{
+  margin: 0;
+  padding: 0%;
+  list-style: none;
+  text-decoration: none;
 }
 
-.navbar-dark .nav-item .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  transition: all 0.3s ease;
-  border-radius: 0.25rem;
-  color: #fff;
+.sidebar{
+position: fixed;
+top: 0px;
+left: 0px;
+width: 250px;
+height: 100%;
+background-color: #042331;
+transition: all .5s ease;
 }
 
-.fa-li {
-  position: relative;
-  left: 0;
+.sidebar header{
+  font-size: 22px;
+  color: white;
+  line-height:70px;
+  background: #063146;
+  user-select: none;
+}
+
+.sidebar ul a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255, .1);
+  border-bottom: 1px solid black;
+  transition: .4s;
+}
+ul li:hover a {
+  padding: 10px;
+}
+
+.sidebar ul a i{
+  margin-right: 16px;
+}
+
+.page{
+  background-color: #042331;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 1200px;
+  border: 10 px;
+}
+
+.link{
+  color: white;
 }

@@ -1,0 +1,18 @@
+<header>
+  <h1>Blogs</h1><h1></h1>{{page}}
+</header>
+<hr>
+{{#each bolgresult}}
+<ul>
+  <li>
+    <h3>{{this.title}}</h3></a>
+  <li>{{this.blog}}</a>
+  </li>
+</ul>
+{{/each}}
+
+
+<button class="page"> <a href="/filter?page={{page}}&action=pre" class="link">previous</a></button>
+<button class="page"> <a href="/filter?page={{page}}&action=nex" class="link">next</a></button>
+
+<p>{{results.next.page}}</p>
